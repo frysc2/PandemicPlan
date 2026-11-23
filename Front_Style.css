@@ -1,9 +1,10 @@
 
 body{
-    font-family: Utile , sans-serif;
+    font-family: font-family: "Futura Md BT", "Century Gothic", "Trebuchet MS", Arial, sans-serif;
+    background: #F5D17B;
 }
 #TopText {
-    font-family: Utile , sans-serif;
+    font-family: font-family: "Futura Md BT", "Century Gothic", "Trebuchet MS", Arial, sans-serif;
     font-size: clamp(1rem, 3.5vw, 3rem);
     color: white;
     text-align: center;
@@ -15,26 +16,27 @@ body{
     height: 100px;
 }
 
-#TopHeader {
+#PandemicMiddle {
     display: flex;
     margin: -8px;
-    background-color: #17382B;
+    background-color: #4C1010;
     height: 200px;
 }
+
 #Menubar {
     text-align: center;
     color: white;
-    background-color: #17382B;
+    background-color: #D05F2F
 }
 #Menubar a:link{
     text-align: center;
     color: white;
-    background-color: #17382B;
+    background-color: #D05F2F;
 }
 #Menubar a:visited{
     text-align: center;
     color: white;
-    background-color: #17382B;
+    background-color: #D05F2Fs;
 }
 
 .Top_column {
