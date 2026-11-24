@@ -17,7 +17,9 @@ body{
 }
 
 #PandemicMiddle {
+
     display: flex;
+    text-align: right;
     margin: -8px;
     background-color: #4C1010;
     height: 200px;
@@ -25,6 +27,7 @@ body{
 
 #Menubar {
     text-align: center;
+    font
     color: white;
     background-color: #D05F2F
 }
@@ -104,11 +107,11 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 300px;
+    height: 500px;
 }
 #Showcase img{
-    width: 70%;
-    height: 200px;
+    width: 50%;
+    height: 400px;
     object-fit: cover;
 }
 .ShowcaseColumn{
@@ -125,7 +128,7 @@ body{
 }
 
 #ScopeColumnLeft {
-    color:white;
+    color:red;
   background-color: #00A055;
   border: red;
   padding: 20px;
@@ -135,7 +138,7 @@ display: flex;
     justify-content: center;
     align-items: center;
   max-width: 100%;
-  height: 200px;
+  height: 400px;
   display: block;
 }
 
@@ -158,13 +161,13 @@ display: flex;
 
 #ShowcaseHeader{
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     margin: 10px;
 }
 
 
 .Showcase-left {
-    flex: 3;
+    flex: 5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,19 +175,19 @@ display: flex;
     color: black;
     text-align: center;
     background-color: white;
-    font-size: 20px;
+    font-size: 40px;
     padding: 20px;
 }
 
 .Showcase-right {
-    flex: 7;
+    flex: 5;
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
     text-align: center;
 
-    font-size: 20px;
+    font-size: 40px;
     padding: 20px;
 }
 
